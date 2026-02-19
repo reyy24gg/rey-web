@@ -9,7 +9,7 @@ export default function Hero() {
     "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop",
   ];
 
-  const mainImageUrl = "https://files.catbox.moe/0es2rw.jpg";
+  const mainVideoUrl = "https://files.catbox.moe/140a0r.mp4";
 
   const galleryStripImages = [
     "https://files.catbox.moe/n59gpp.webp",
@@ -177,11 +177,16 @@ export default function Hero() {
             >
               <motion.div className="rounded-3xl overflow-hidden border border-white/6 shadow-2xl bg-linear-to-b from-black/50 to-transparent">
                 <div className="relative aspect-16/10 bg-gray-900">
-                  <img
-                    src={mainImageUrl}
-                    alt="agency-work-preview"
+                  <video
+                    src={mainVideoUrl}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
                     className="w-full h-full object-cover object-center"
-                  />
+                  >
+                    Browser kamu tidak mendukung video.
+                  </video>
 
                   <div className="absolute left-4 top-4 px-3 py-1 rounded-full bg-black/15 backdrop-blur-sm text-xs">
                     K-ON!!
