@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 
 export default function CTA() {
   return (
-    <section className="min-h-screen flex items-center px-6 bg-linear-to-b from-black/50 to-transparent relative overflow-hidden">
+    <section
+      id="contact"
+      className="min-h-screen flex items-center px-6 bg-linear-to-b from-black/50 to-transparent relative overflow-hidden"
+    >
       {/* LEFT CONTENT */}
       <div className="relative z-10 max-w-xl">
         <div className="rounded-3xl bg-white/10 backdrop-blur-xl border border-white/10 p-12 md:p-16">
@@ -15,7 +18,7 @@ export default function CTA() {
             viewport={{ once: true }}
             transition={{ type: "spring", stiffness: 250, damping: 70 }}
           >
-            Contact Us
+            Contact
           </motion.h2>
 
           <motion.p
@@ -47,7 +50,7 @@ export default function CTA() {
             }}
           >
             <GhostButton className="px-8 py-3 gap-2 bg-white/20 text-white hover:bg-white/30 backdrop-blur-md">
-              Contact Us <ArrowRightIcon size={20} />
+              Contact <ArrowRightIcon size={20} />
             </GhostButton>
           </motion.div>
         </div>
@@ -58,7 +61,6 @@ export default function CTA() {
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}
-        className="absolute right-0 bottom-0 w-[500px] h-[500px] bg-purple-600/40 blur-[120px] rounded-full"
       />
 
       {/* LIGHT STREAK */}

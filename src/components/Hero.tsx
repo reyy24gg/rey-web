@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   const trustedUserImages = [
-    "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=50",
-    "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=50",
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop",
+    "https://files.catbox.moe/ja1wre.jpg",
+    "https://files.catbox.moe/e6bxnf.jpg",
+    "https://files.catbox.moe/zuhi48.jpg",
   ];
 
   const mainVideoUrl = "https://files.catbox.moe/140a0r.mp4";
@@ -18,11 +18,11 @@ export default function Hero() {
   ];
 
   const trustedLogosText = [
-    "UI/UX",
-    "Web development",
-    "Founders",
-    "Global teams",
-    "Creative projects",
+    "Wuthering Waves",
+    "Honkai Star Rails",
+    "Etheria Restart",
+    "Mobile Legends",
+    "Arknights Enfield",
   ];
 
   return (
@@ -57,7 +57,7 @@ export default function Hero() {
                   ))}
                 </div>
                 <span className="text-xs text-gray-200/90">
-                  100+ clients trust us with their projects
+                  100+ buyers trust rayzen store
                 </span>
               </motion.a>
 
@@ -74,9 +74,9 @@ export default function Hero() {
                   delay: 0.1,
                 }}
               >
-                レイハン <br />
-                <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-300 to-indigo-400">
-                  Reyhan Fahri H.P
+                Rayzen Store <br />
+                <span className="text-3xl bg-clip-text text-transparent bg-linear-to-r from-indigo-300 to-indigo-400">
+                  Secure & Premium Accounts
                 </span>
               </motion.h1>
 
@@ -93,10 +93,9 @@ export default function Hero() {
                   delay: 0.2,
                 }}
               >
-                Student at SMKN 2 Depok Sleman with a passion for web
-                development and design. I have experience in creating websites
-                and applications that deliver exceptional user experiences.
-                Let's collaborate to bring your ideas to life!
+                Rayzen Store Premium Game Accounts. Skip the grind and start
+                your journey with elite ranks, rare skins, and unlocked legends.
+                Secure, verified, and ready for battle. Get your account now
               </motion.p>
 
               <motion.div
@@ -114,13 +113,13 @@ export default function Hero() {
               >
                 <a href="#" className="w-full sm:w-auto">
                   <PrimaryButton className="max-sm:w-full py-3 px-7">
-                    View my projects
+                    View Price
                     <ArrowRightIcon className="size-4" />
                   </PrimaryButton>
                 </a>
 
                 <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
-                  Contact me
+                  Why Choose Rayzen Store
                 </GhostButton>
               </motion.div>
 
@@ -140,9 +139,9 @@ export default function Hero() {
                 <div className="flex items-center gap-2 p-2 px-3 sm:px-6.5 hover:bg-white/3 transition-colors">
                   <ZapIcon className="size-4 text-sky-500" />
                   <div>
-                    <div>Strategy-led execution</div>
+                    <div>Full Service Guide</div>
                     <div className="text-xs text-gray-400">
-                      Focused on growth & results
+                      Step-by-step guide
                     </div>
                   </div>
                 </div>
@@ -152,9 +151,9 @@ export default function Hero() {
                 <div className="flex items-center gap-2 p-2 px-3 sm:px-6.5 hover:bg-white/3 transition-colors">
                   <CheckIcon className="size-4 text-cyan-500" />
                   <div>
-                    <div>Full-service delivery</div>
+                    <div>Trusted</div>
                     <div className="text-xs text-gray-400">
-                      Design, dev & marketing
+                      100% positive reviews
                     </div>
                   </div>
                 </div>
@@ -185,16 +184,16 @@ export default function Hero() {
                     playsInline
                     className="w-full h-full object-cover object-center"
                   >
-                    Browser kamu tidak mendukung video.
+                    Browser does not support the video tag.
                   </video>
 
                   <div className="absolute left-4 top-4 px-3 py-1 rounded-full bg-black/15 backdrop-blur-sm text-xs">
-                    K-ON!!
+                    Rayzen Store
                   </div>
 
                   <div className="absolute right-4 bottom-4">
                     <button className="inline-flex items-center gap-2 rounded-full px-4 py-2 bg-white/6 backdrop-blur-sm hover:bg-white/10 transition focus:outline-none">
-                      <span className="text-xs">Houkago Tea Time</span>
+                      <span className="text-xs">Your better experience</span>
                     </button>
                   </div>
                 </div>
@@ -241,7 +240,7 @@ export default function Hero() {
 
                     <span className="relative inline-flex size-2 rounded-full bg-green-600" />
                   </div>
-                  20+ completed projects
+                  100+ sold accounts
                 </motion.div>
               </div>
             </motion.div>

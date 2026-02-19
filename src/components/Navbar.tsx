@@ -8,7 +8,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/#" },
-    { name: "Features", href: "/#features" },
+    { name: "Services", href: "/#features" },
     { name: "Pricing", href: "/#pricing" },
     { name: "FAQ", href: "/#faq" },
   ];
@@ -23,7 +23,11 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between bg-black/50 backdrop-blur-md border border-white/4 rounded-2xl p-3">
         <a href="/#">
-          <img src="https://files.catbox.moe/ivawxa.svg" alt="logo" className="h-8" />
+          <img
+            src="https://files.catbox.moe/ivawxa.svg"
+            alt="logo"
+            className="h-8"
+          />
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
@@ -39,9 +43,9 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="/contact">
+          <a href="#contact">
             <PrimaryButton className="max-sm:text-xs hidden sm:inline-block">
-              Contact Us
+              Order Now
             </PrimaryButton>
           </a>
         </div>
@@ -60,7 +64,7 @@ export default function Navbar() {
         ))}
 
         <PrimaryButton onClick={() => setIsOpen(false)}>
-          Contact Us
+          Order Now
         </PrimaryButton>
 
         <button
