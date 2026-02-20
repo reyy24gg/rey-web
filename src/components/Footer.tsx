@@ -13,7 +13,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-white/10">
           <div>
-            <img src="/logo.svg" alt="logo" className="h-8" />
+            <a href="/#">
+              <img
+                src="https://files.catbox.moe/ivawxa.svg"
+                alt="logo"
+                className="h-12"
+              />
+            </a>
             <p className="max-w-[410px] mt-6 text-sm leading-relaxed">
               We are a digital design agency crafting beautiful websites, apps,
               and brands. We help startups and businesses bring their ideas to

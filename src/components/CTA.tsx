@@ -33,9 +33,9 @@ export default function CTA() {
               delay: 0.2,
             }}
           >
-            Contact us today to discuss your project and discover how we can
-            help you achieve your goals with stunning design and seamless user
-            experiences.
+            Contact me on whatsapp for inquiries, custom requests, or just to
+            say hi! I'm here to help you find the perfect gaming account or
+            answer any questions you may have. Don't hesitate to reach out!
           </motion.p>
 
           <motion.div
@@ -49,9 +49,16 @@ export default function CTA() {
               delay: 0.3,
             }}
           >
-            <GhostButton className="px-8 py-3 gap-2 bg-white/20 text-white hover:bg-white/30 backdrop-blur-md">
-              Contact <ArrowRightIcon size={20} />
-            </GhostButton>
+            <a
+              href="https://wa.me/6285900238941?text=Hello%2C%20I'd%20like%20to%20buy%0AGame%20Account%3A%20%0ABudget%3A%20%0ARequest%3A%20"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <GhostButton className="px-8 py-3 gap-2 bg-white/20 text-white hover:bg-white/30 backdrop-blur-md">
+                Contact on whatsapp <ArrowRightIcon size={20} />
+              </GhostButton>
+            </a>
           </motion.div>
         </div>
       </div>

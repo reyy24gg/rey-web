@@ -26,7 +26,7 @@ export default function Navbar() {
           <img
             src="https://files.catbox.moe/ivawxa.svg"
             alt="logo"
-            className="h-8"
+            className="h-12"
           />
         </a>
 

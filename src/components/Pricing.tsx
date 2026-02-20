@@ -12,8 +12,8 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto px-4">
         <Title
           title="Pricing"
-          heading="Simple, transparent pricing"
-          description="Flexible agency packages designed to fit startups, growing teams and established brands."
+          heading="Affordable plans for every player"
+          description="Choose the perfect gaming account that fits your budget and playstyle."
         />
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -85,6 +85,7 @@ export default function Pricing() {
                   <GhostButton className="w-full justify-center">
                     Get started
                   </GhostButton>
+                  
                 )}
               </div>
             </motion.div>
